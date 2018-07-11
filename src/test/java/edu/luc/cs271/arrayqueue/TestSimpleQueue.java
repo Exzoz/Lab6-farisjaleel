@@ -104,6 +104,7 @@ public class TestSimpleQueue {
 
   @Test
   public void testAsListEmpty() {
+
     assertEquals(0, fixture.asList().size());
   }
 
